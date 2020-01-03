@@ -76,6 +76,10 @@ body {
     font-size: 2.7rem;
     color: #fff;
     line-height: 1.6; }
+  .paragraph-secondary--contact {
+    font-size: 2.5rem;
+    margin-bottom: 10rem;
+    color: #2e294e; }
 
 .heading-service {
   color: #008bf8;
@@ -96,6 +100,9 @@ body {
   color: #fff;
   margin: 2.5rem 0;
   font-family: "Montserrat"; }
+  .heading-secondary--contact {
+    color: #2e294e;
+    font-size: 6rem; }
 
 .heading-tertiary {
   font-size: 5rem;
@@ -156,6 +163,12 @@ body {
   font-weight: 300;
   margin-bottom: 3rem;
   line-height: 1.2; }
+
+.paragraph-project-links {
+  font-size: 3rem;
+  color: #fff;
+  margin-bottom: 2.5rem;
+  line-height: 5rem; }
 
 .btn {
   text-decoration: none;
@@ -405,6 +418,46 @@ body {
     font-size: 1.4rem;
     border: 2px solid #008bf8;
     transition: all 0.3s; }
+  .projects__links-box {
+    margin-top: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; }
+  .projects__link {
+    cursor: pointer;
+    text-decoration: none;
+    color: #2e294e;
+    transition: all 0.3s; }
+  .projects__button {
+    padding: 2rem 4rem;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #2e294e;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0.6rem 0.6rem 0.1rem rgba(0, 0, 0, 0.15);
+    background-image: linear-gradient(120deg, #2e294e, #2e294e 50%, #fff 0);
+    transition: all 0.5s;
+    background-size: 220%;
+    background-position: 100%;
+    backface-visibility: hidden; }
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  align-items: center; }
+  .contact__text-box {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
 
 .u-margin-left-lg {
   margin-left: 35rem; }

@@ -30,6 +30,12 @@
     color: #fff;
     line-height: 1.6;
   }
+
+  &--contact {
+    font-size: 2.5rem;
+    margin-bottom: 10rem;
+    color: #2e294e;
+  }
 }
 .heading-service {
   color: #008bf8;
@@ -50,6 +56,11 @@
   color: #fff;
   margin: 2.5rem 0;
   font-family: "Montserrat";
+
+  &--contact {
+    color: #2e294e;
+    font-size: 6rem;
+  }
 }
 .heading-tertiary {
   font-size: 5rem;
@@ -118,4 +129,10 @@
   font-weight: 300;
   margin-bottom: 3rem;
   line-height: 1.2;
+}
+.paragraph-project-links {
+  font-size: 3rem;
+  color: #fff;
+  margin-bottom: 2.5rem;
+  line-height: 5rem;
 }
