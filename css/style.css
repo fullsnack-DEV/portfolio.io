@@ -135,6 +135,28 @@ body {
   text-align: center;
   line-height: 1.5; }
 
+.heading-project {
+  font-size: 7rem;
+  font-weight: 200;
+  margin-bottom: 2.5rem;
+  color: #2e2949; }
+
+.paragraph-project {
+  font-size: 3rem;
+  font-weight: 600;
+  color: #2e2949; }
+
+.sub-heading-projects {
+  font-size: 2.5rem;
+  font-weight: 500;
+  margin-bottom: 1.5rem; }
+
+.paragraph-description-project {
+  font-size: 2rem;
+  font-weight: 300;
+  margin-bottom: 3rem;
+  line-height: 1.2; }
+
 .btn {
   text-decoration: none;
   padding: 1.5rem 3rem;
@@ -311,6 +333,78 @@ body {
     width: 6rem;
     height: 6rem;
     margin: 0 1rem; }
+
+.projects {
+  margin-top: 5rem;
+  background-image: linear-gradient(to left bottom, #6772e5, #6772e5);
+  border-bottom-right-radius: 15% 3%;
+  border-bottom-left-radius: 15% 3%;
+  padding: 10rem 3rem 20rem; }
+  .projects__container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; }
+  .projects__text-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    margin: -30rem 20rem 15rem 0; }
+  .projects__text {
+    text-align: center; }
+  .projects__component {
+    width: 50rem;
+    height: 55rem;
+    background: #fff;
+    box-shadow: 0.4rem 0.4rem 0.4rem rgba(46, 41, 78, 0.15);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 7px;
+    transition: all 0.3s;
+    backface-visibility: hidden;
+    margin: 0 1rem 6rem; }
+  .projects__img-container {
+    width: 50rem;
+    height: 25rem;
+    padding: 2rem; }
+  .projects__img {
+    width: 100%;
+    height: 100%; }
+  .projects__description-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 4.5rem; }
+  .projects__technologies {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; }
+  .projects__technology {
+    background-color: #6772e5;
+    color: #fff;
+    padding: 1rem 2rem;
+    border-radius: 3px; }
+  .projects__review {
+    margin-top: 3rem;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; }
+  .projects__checkout {
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 1rem 2rem;
+    background: #fff;
+    color: #008bf8;
+    font-size: 1.4rem;
+    border: 2px solid #008bf8;
+    transition: all 0.3s; }
 
 .u-margin-left-lg {
   margin-left: 35rem; }
