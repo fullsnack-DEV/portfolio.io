@@ -1,0 +1,36 @@
+.header {
+  height: 95vh;
+  display: flex;
+
+  &__circle {
+    height: 7rem;
+    width: 7rem;
+    border-radius: 10rem;
+    background: linear-gradient(135deg, var(--color-pri), var(--color-sec));
+    top: -3.5rem;
+    left: 20%;
+
+    box-shadow: 3px 3px 15px rgba(103, 114, 229, 0.4);
+    position: absolute;
+  }
+  &__text-box {
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    transform: translate(-40%, -50%);
+    width: 75%;
+    margin-left: 5rem;
+  }
+
+  &__svg {
+    position: absolute;
+    right: 0;
+    height: 65rem;
+    width: 65rem;
+  }
+
+  &__left {
+    flex: 0 0 50%;
+    position: relative;
+  }
+}

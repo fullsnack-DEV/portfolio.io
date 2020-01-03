@@ -1,0 +1,99 @@
+.heading-primery {
+  font-size: 7rem;
+  font-weight: 700;
+  margin-bottom: 2.5rem;
+  color: var(--heading-color);
+}
+.heading-mission {
+  font-size: 6rem;
+  margin: 5rem 0 2.5rem;
+  display: inline-block;
+  font-weight: 500;
+
+  &--skills {
+    font-size: 8rem;
+    font-weight: 600;
+    color: #2e294e;
+    margin-bottom: 15rem;
+  }
+}
+
+.paragraph-secondary {
+  font-weight: 400;
+
+  &--mission {
+    line-height: 1.5;
+    font-size: 2.7rem;
+  }
+  &--about {
+    font-size: 2.7rem;
+    color: #fff;
+    line-height: 1.6;
+  }
+}
+.heading-service {
+  color: #008bf8;
+  font-size: 2.5rem;
+  font-weight: 500;
+  margin: 2rem 0 1rem;
+}
+.paragraph-service {
+  font-size: 1.9rem;
+  text-align: center;
+  padding: 0 4rem;
+  color: #2e294e;
+  line-height: 1.3;
+}
+.heading-secondary {
+  font-size: 7rem;
+  font-weight: 600;
+  color: #fff;
+  margin: 2.5rem 0;
+  font-family: "Montserrat";
+}
+.heading-tertiary {
+  font-size: 5rem;
+  font-weight: 500;
+  margin-bottom: 2.5rem;
+  color: #2e294e;
+
+  &--about {
+    padding-right: 10rem;
+    line-height: 1.6;
+  }
+  &--skills {
+    line-height: 1.6;
+  }
+}
+.paragraph-tertiary {
+  font-size: 2.5rem;
+  font-weight: 400;
+
+  &--about {
+    padding-right: 10rem;
+    line-height: 1.6;
+    color: #fff;
+  }
+  &--skills {
+    line-height: 1.6;
+  }
+}
+.heading-together {
+  font-size: 12rem;
+  color: #fff;
+  font-weight: 300;
+
+  &--large {
+    display: block;
+    text-align: center;
+    font-size: 17rem;
+    font-weight: 700;
+    color: #f1f1f1;
+  }
+}
+.paragraph-skills {
+  font-size: 2rem;
+  font-weight: 400;
+  text-align: center;
+  line-height: 1.5;
+}

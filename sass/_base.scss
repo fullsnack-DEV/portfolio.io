@@ -1,0 +1,27 @@
+//font colors
+
+:root {
+  --heading-color: #2e294e;
+  --color-pri: #d53dc9;
+  --color-sec: #d7263d;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  line-height: 1.15;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+}

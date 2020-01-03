@@ -1,0 +1,23 @@
+.btn {
+  text-decoration: none;
+  padding: 1.5rem 3rem;
+  display: inline-block;
+  outline: none;
+  border: none;
+  cursor: pointer;
+
+  &--primery,
+  &:link {
+    background: #d7263d;
+    color: #fff;
+    font-weight: 400;
+    font-size: 1.9rem;
+    border-radius: 6px;
+    transition: all 0.3s;
+  }
+
+  &--primery::after {
+    color: #fff;
+    background: #6772e5;
+  }
+}
