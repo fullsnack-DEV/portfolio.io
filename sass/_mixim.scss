@@ -1,0 +1,32 @@
+/*MEDI QUERIES
+0-600PX: :PHONE
+600-900PX: tBLET PORTRIT
+900-  1200pX : tABLET PORTAIT
+
+1200-1800px:{is where the normal style apply}
+
+1800+ : big screen
+*/
+
+@mixin respond($breakpoint) {
+  @if $breakpoint == phone {
+    @media (max-width: 37.5em) {
+      @content; //600px
+    }
+  }
+  @if $breakpoint == tab-port {
+    @media (max-width: 56.25em) {
+      @content; //900px
+    }
+  }
+  @if $breakpoint == tab-land {
+    @media (max-width: 75em) {
+      @content; //1200px
+    }
+  }
+  @if $breakpoint == big-desktop {
+    @media (max-width: 112.5em) {
+      @content; //1800px
+    }
+  }
+}

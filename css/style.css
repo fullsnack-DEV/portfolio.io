@@ -169,6 +169,16 @@ body {
   color: #fff;
   margin-bottom: 2.5rem;
   line-height: 5rem; }
+  .paragraph-project-links--contact {
+    color: #2e294e;
+    margin-top: 10rem;
+    font-size: 2rem;
+    font-weight: 500; }
+
+.paragraph-footer {
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: #fff; }
 
 .btn {
   text-decoration: none;
@@ -458,6 +468,23 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center; }
+  .contact__icon-link {
+    text-decoration: none;
+    backface-visibility: hidden;
+    margin-top: 0 1rem; }
+  .contact__icon {
+    width: 6rem;
+    height: 6rem;
+    margin: 0 1.5rem;
+    transition: transform 0.3s;
+    backface-visibility: hidden; }
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem 0;
+  background-image: linear-gradient(to right bottom, #1e272e, #1e272e); }
 
 .u-margin-left-lg {
   margin-left: 35rem; }
