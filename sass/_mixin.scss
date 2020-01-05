@@ -1,0 +1,78 @@
+/*MEDI QUERIES
+0-500PX: :PHONE
+500-700: Phone-mid
+600-900PX: tBLET PORTRIT
+900-  1200pX : tABLET PORTAIT
+
+1200-1800px:{is where the normal style apply}
+
+1800+ : big screen
+
+//calculation for the em unit 
+
+by defualt 1em =16px so,
+
+600px/16px= 37.5em  and so on;
+700px/16px=43.75em
+
+
+
+
+
+*/
+
+@mixin respond($breakpoint) {
+  //500px
+  @if $breakpoint == phone-mid {
+    @media (max-width: 31.25em) {
+      @content;
+    }
+  }
+  @if $breakpoint == phone-mid2 {
+    @media (max-width: 37.5em) {
+      @content;
+    }
+  }
+  @if $breakpoint == phone-small {
+    //400px
+    @media (max-width: 25em) {
+      @content;
+    }
+  }
+  @if $breakpoint == phone-large {
+    //700px
+    @media (max-width: 43.75em) {
+      @content;
+    }
+  }
+  @if $breakpoint == tab-port {
+    @media (max-width: 56.25em) {
+      @content; //900px
+    }
+  }
+  @if $breakpoint == tab-land {
+    @media (max-width: 65.625em) {
+      @content; //1050px
+    }
+  }
+  @if $breakpoint == desktop {
+    @media (max-width: 84.375em) {
+      @content; //1350px
+    }
+  }
+  @if $breakpoint == desktop2 {
+    @media (max-width: 90.625em) {
+      @content; //1350px
+    }
+  }
+  @if $breakpoint == tab-land2 {
+    @media (max-width: 78.125em) {
+      @content; //1250px
+    }
+  }
+  @if $breakpoint == big-screen {
+    @media (max-width: 103.75em) {
+      @content; //1250px
+    }
+  }
+}

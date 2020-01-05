@@ -3,6 +3,32 @@
   font-weight: 700;
   margin-bottom: 2.5rem;
   color: var(--heading-color);
+
+  @include respond(desktop) {
+    font-size: 6rem;
+  }
+  @include respond(tab-land) {
+    font-size: 5rem;
+  }
+  @include respond(phone-small) {
+    font-size: 4.5rem;
+  }
+}
+.paragraph-primary {
+  font-size: 3rem;
+  font-weight: 500;
+  margin-bottom: 3rem;
+
+  @include respond(desktop) {
+    font-size: 2.5rem;
+  }
+
+  @include respond(tab-land) {
+    font-size: 2.2rem;
+  }
+  @include respond(phone-small) {
+    font-size: 2.1rem;
+  }
 }
 .heading-mission {
   font-size: 6rem;
@@ -10,11 +36,27 @@
   display: inline-block;
   font-weight: 500;
 
+  @include respond(desktop) {
+    font-size: 5rem;
+  }
+  @include respond(tab-land) {
+    font-size: 4rem;
+  }
+
   &--skills {
     font-size: 8rem;
     font-weight: 600;
     color: #2e294e;
     margin-bottom: 15rem;
+    @include respond(desktop) {
+      font-size: 6rem;
+    }
+    @include respond(tab-land) {
+      font-size: 5rem;
+    }
+    @include respond(phone-large) {
+      margin-bottom: 7rem;
+    }
   }
 }
 
@@ -29,6 +71,16 @@
     font-size: 2.7rem;
     color: #fff;
     line-height: 1.6;
+    @include respond(big-screen) {
+      font-size: 2.7rem;
+    }
+    @include respond(desktop) {
+      font-size: 2.3rem;
+    }
+
+    @include respond(tab-land) {
+      font-size: 2.2rem;
+    }
   }
 
   &--contact {
@@ -57,6 +109,14 @@
   margin: 2.5rem 0;
   font-family: "Montserrat";
 
+  @include respond(desktop) {
+    font-size: 6rem;
+  }
+
+  @include respond(tab-land) {
+    font-size: 5rem;
+  }
+
   &--contact {
     color: #2e294e;
     font-size: 6rem;
@@ -67,6 +127,12 @@
   font-weight: 500;
   margin-bottom: 2.5rem;
   color: #2e294e;
+  @include respond(desktop) {
+    font-size: 4rem;
+  }
+  @include respond(tab-land) {
+    font-size: 3rem;
+  }
 
   &--about {
     padding-right: 10rem;
@@ -84,9 +150,32 @@
     padding-right: 10rem;
     line-height: 1.6;
     color: #fff;
+    @include respond(desktop2) {
+      padding-right: 10rem;
+    }
+    @include respond(desktop) {
+      font-size: 2.1rem;
+    }
+    @include respond(tab-land2) {
+      padding-right: 8rem;
+    }
+    @include respond(tab-land) {
+      padding-right: 5rem;
+      font-size: 2rem;
+    }
+
+    @include respond(phone-large) {
+      padding-right: 0rem;
+    }
   }
   &--skills {
     line-height: 1.6;
+    @include respond(desktop) {
+      font-size: 2.1rem;
+    }
+    @include respond(tab-land) {
+      font-size: 2rem;
+    }
   }
 }
 .heading-together {
@@ -94,12 +183,48 @@
   color: #fff;
   font-weight: 300;
 
+  @include respond(desktop) {
+    font-size: 11rem;
+  }
+
+  @include respond(tab-land2) {
+    font-size: 10rem;
+  }
+  @include respond(tab-land) {
+    font-size: 8rem;
+  }
+
+  @include respond(phone-mid) {
+    font-size: 6rem;
+  }
+  @include respond(phone-small) {
+    font-size: 5rem;
+  }
+
   &--large {
     display: block;
     text-align: center;
     font-size: 17rem;
     font-weight: 700;
     color: #f1f1f1;
+
+    @include respond(desktop) {
+      font-size: 16rem;
+    }
+
+    @include respond(tab-land2) {
+      font-size: 15rem;
+    }
+    @include respond(tab-land) {
+      font-size: 13rem;
+    }
+
+    @include respond(phone-mid) {
+      font-size: 11rem;
+    }
+    @include respond(phone-small) {
+      font-size: 9rem;
+    }
   }
 }
 .paragraph-skills {
@@ -107,17 +232,28 @@
   font-weight: 400;
   text-align: center;
   line-height: 1.5;
+  @include respond(tab-land) {
+    font-size: 1.8rem;
+  }
 }
 .heading-project {
   font-size: 7rem;
   font-weight: 200;
   margin-bottom: 2.5rem;
   color: #2e2949;
+
+  @include respond(desktop) {
+    font-size: 6rem;
+  }
 }
 .paragraph-project {
   font-size: 3rem;
   font-weight: 600;
   color: #2e2949;
+
+  @include respond(desktop) {
+    font-size: 2.3rem;
+  }
 }
 .sub-heading-projects {
   font-size: 2.5rem;

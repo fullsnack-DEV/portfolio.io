@@ -1,3 +1,19 @@
 .u-margin-left-lg {
   margin-left: 35rem;
+
+  @include respond(desktop) {
+    margin-left: 25rem;
+  }
+
+  @include respond(tab-land2) {
+    margin-left: 16rem;
+  }
+
+  @include respond(phone-large) {
+    margin-left: 13rem;
+  }
+
+  @include respond(phone-mid) {
+    margin-left: 0;
+  }
 }

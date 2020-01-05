@@ -12,6 +12,11 @@
 
     box-shadow: 3px 3px 15px rgba(103, 114, 229, 0.4);
     position: absolute;
+
+    @include respond(tab-land) {
+      height: 5rem;
+      width: 5rem;
+    }
   }
   &__text-box {
     position: absolute;
@@ -20,17 +25,63 @@
     transform: translate(-40%, -50%);
     width: 75%;
     margin-left: 5rem;
+
+    @include respond(phone-large) {
+      margin-left: 6rem;
+      width: 85%;
+    }
+    @include respond(phone-mid) {
+      margin-left: 5rem;
+    }
+    @include respond(phone-small) {
+      margin-left: 3rem;
+    }
   }
 
   &__svg {
     position: absolute;
     right: 0;
-    height: 65rem;
-    width: 65rem;
+
+    @include respond(big-screen) {
+      width: 75rem;
+      height: 75rem;
+    }
+    @include respond(desktop2) {
+      width: 65rem;
+      height: 65rem;
+    }
+
+    @include respond(tab-land2) {
+      width: 60rem;
+      height: 60rem;
+    }
+    @include respond(tab-land) {
+      width: 45rem;
+      height: 45rem;
+    }
+    @include respond(phone-large) {
+      width: 38rem;
+      height: 38rem;
+    }
+    @include respond(phone-mid) {
+      width: 31rem;
+      height: 31rem;
+    }
   }
 
   &__left {
     flex: 0 0 50%;
     position: relative;
+
+    @include respond(phone-small) {
+      flex: 0 0 65%;
+    }
+  }
+  &__right {
+    flex: 0 0 50%;
+    position: relative;
+    @include respond(phone-small) {
+      flex: 35%;
+    }
   }
 }

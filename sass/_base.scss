@@ -19,7 +19,15 @@ html {
   box-sizing: border-box;
   font-size: 62.5%;
   line-height: 1.15;
+
+  @include respond(phone-large) {
+    font-size: 45%;
+  }
+  @include respond(tab-port) {
+    font-size: 52%;
+  }
 }
+
 body {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;

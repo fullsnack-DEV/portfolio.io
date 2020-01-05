@@ -5,6 +5,9 @@
   outline: none;
   border: none;
   cursor: pointer;
+  @include respond(tab-land2) {
+    padding: 1.5rem 2.4rem;
+  }
 
   &--primery,
   &:link {
@@ -14,6 +17,12 @@
     font-size: 1.9rem;
     border-radius: 6px;
     transition: all 0.3s;
+    @include respond(tab-land) {
+      font-size: 1.7rem;
+    }
+    @include respond(phone-large) {
+      font-size: 2rem;
+    }
   }
 
   &--primery::after {
