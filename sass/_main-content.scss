@@ -763,6 +763,8 @@
     transition: transform 0.3s;
     backface-visibility: hidden;
 
+    //This is a media query
+
     @include respond(tab-land) {
       width: 7rem;
       height: 7rem;

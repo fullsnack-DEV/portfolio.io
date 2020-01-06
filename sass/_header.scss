@@ -72,7 +72,7 @@
   &__left {
     flex: 0 0 50%;
     position: relative;
-
+    //media query
     @include respond(phone-small) {
       flex: 0 0 65%;
     }
