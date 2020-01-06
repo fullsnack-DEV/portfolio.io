@@ -620,6 +620,23 @@
     width: 50rem;
     height: 25rem;
     padding: 2rem;
+
+    @include respond(tab-land) {
+      width: 45rem;
+      height: 20rem;
+    }
+    @include respond(tab-port) {
+      width: 40rem;
+      height: 20rem;
+    }
+    @include respond(phone-large) {
+      width: 45rem;
+      height: 20rem;
+    }
+    @include respond(phone-small) {
+      width: 40rem;
+      height: 20rem;
+    }
   }
   &__img {
     width: 100%;
@@ -632,12 +649,20 @@
     align-items: center;
     text-align: center;
     padding: 0 4.5rem;
+
+    @include respond(phone-small) {
+      padding: 0 3rem;
+    }
   }
   &__technologies {
     width: 80%;
     display: flex;
     justify-content: space-around;
     align-items: center;
+
+    @include respond(phone-small) {
+      width: 100%;
+    }
   }
   &__technology {
     background-color: #6772e5;
@@ -651,6 +676,11 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+
+    @include respond(phone-small) {
+      width: 100%;
+      margin-top: 2rem;
+    }
   }
   &__checkout {
     cursor: pointer;
@@ -662,6 +692,9 @@
     font-size: 1.4rem;
     border: 2px solid #008bf8;
     transition: all 0.3s;
+    @include respond(tab-land) {
+      padding: 0.9rem 1.9rem;
+    }
   }
   &__links-box {
     margin-top: 10rem;
@@ -670,6 +703,12 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+    @include respond(tab-land) {
+      margin-top: 5rem;
+    }
+    @include respond(tab-port) {
+      margin-top: 3rem;
+    }
   }
   &__link {
     cursor: pointer;
@@ -693,6 +732,10 @@
     background-size: 220%;
     background-position: 100%;
     backface-visibility: hidden;
+    @include respond(tab-land) {
+      font-size: 1.8rem;
+      padding: 1.8rem 3.8rem;
+    }
   }
 }
 //section-contact
@@ -719,6 +762,11 @@
     margin: 0 1.5rem;
     transition: transform 0.3s;
     backface-visibility: hidden;
+
+    @include respond(tab-land) {
+      width: 7rem;
+      height: 7rem;
+    }
   }
 }
 //section-footer

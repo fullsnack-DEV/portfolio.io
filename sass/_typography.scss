@@ -259,18 +259,45 @@
   font-size: 2.5rem;
   font-weight: 500;
   margin-bottom: 1.5rem;
+
+  @include respond(tab-land) {
+    font-size: 2.2rem;
+  }
 }
 .paragraph-description-project {
   font-size: 2rem;
   font-weight: 300;
   margin-bottom: 3rem;
   line-height: 1.2;
+
+  @include respond(tab-land) {
+    font-size: 1.7rem;
+  }
 }
 .paragraph-project-links {
   font-size: 3rem;
   color: #fff;
   margin-bottom: 2.5rem;
   line-height: 5rem;
+
+  @include respond(tab-land) {
+    font-size: 2.4rem;
+  }
+  @include respond(tab-port) {
+    padding: 0 4rem;
+  }
+  @include respond(phone-mid2) {
+    padding: 0 6rem;
+  }
+  @include respond(phone-mid) {
+    padding: 0 4rem;
+  }
+  @include respond(phone-small) {
+    font-size: 2.1rem;
+
+    padding: 0 2rem;
+  }
+
   &--contact {
     color: #2e294e;
     margin-top: 10rem;
