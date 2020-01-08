@@ -19,5 +19,8 @@
     "postcss-cli": "^6.1.3"
   },
   "author": "Pratik",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "sal.js": "^0.7.0"
+  }
 }

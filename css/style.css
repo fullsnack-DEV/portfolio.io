@@ -138,18 +138,18 @@ body {
     .heading-primery {
       font-size: 4.5rem; } }
 
-.paragraph-primary {
+.paragraph-primery {
   font-size: 3rem;
   font-weight: 500;
   margin-bottom: 3rem; }
   @media (max-width: 84.375em) {
-    .paragraph-primary {
+    .paragraph-primery {
       font-size: 2.5rem; } }
   @media (max-width: 65.625em) {
-    .paragraph-primary {
+    .paragraph-primery {
       font-size: 2.2rem; } }
   @media (max-width: 25em) {
-    .paragraph-primary {
+    .paragraph-primery {
       font-size: 2.1rem; } }
 
 .heading-mission {
